@@ -1,0 +1,29 @@
+set modify container for commit save and create new 
+docker commit container id custome image (save a new image)
+Docker volume: persistent storage location for the container. and they are also porable from system to another.
+volume drivers: drivers allow you to perfrom unique availbinty
+docker network: docker network is basiscally a connection between one or more container. 
+given Tag
+docker tag nginx dockerhubusername/newimagename
+________________________________________________________________
+
+docker compose : allow to run multi container.
+docker build
+docker pull
+docker run
+
+Docker file: 
+FROM:  user images
+ADD: add data from source to distination also use URL
+COPY: copy data from source to destionation cant use URL
+RUN : to run specic commands
+WORKDIR: resposibe for setting ti working directory so that you canrun shell commands in that specific directory during the build time of the image
+CMD: after run container if you want run any command use CMD
+VOLUME: mount point for the volume
+EXPOSE: which port you want to expose (it only expose internal network)
+ENTRYPOINT: 
+LABEL: Label use for matadata key=value
+
+docker build -t kuldeeppy .
+
+

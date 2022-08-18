@@ -1,0 +1,4 @@
+FROM nginx:latest
+WORKDIR /app
+CMD ["service" "start" nginx]
+LABEL Name=Nginx
